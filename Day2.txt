@@ -1,0 +1,27 @@
+create database college;
+USE college;
+
+ create database  whileloop;
+--  use whileloop;
+ 
+ CREATE TABLE Employee(
+ employee_id  INT PRIMARY KEY,
+sallary int ,
+name varchar(50),
+age INT NOT NULL
+);
+-- select *FROM Employee;
+
+CREATE TABLE Employee (
+    employee_id INT PRIMARY KEY,
+    salary INT,
+    name VARCHAR(50),
+    age INT NOT NULL
+);
+select *FROM Employee;
+insert INTO Employee (employee_id,salary, name , age) VALUES
+(10, 25000,"Afroz Alam", 23),
+(11,1200000,"Mahesh D",24),
+(12,700000,"Pandu M",21),
+(13,780000,"Dani Danials",23);
+select *from Employee;
