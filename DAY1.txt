@@ -1,0 +1,17 @@
+CREATE DATABASE COLLEGE;
+-- CREATE database IF NOT exists COLLEGE;
+-- DROP database IF exists CAR;
+ 
+ USE college;
+ 
+ CREATE TABLE Student(
+ id INT primary key,
+ name varchar(50),
+ AGE INT NOT NULL
+ );
+
+INSERT INTO Student Values(1,"Mahesh",24);
+INSERT INTO Student Values(2,"Ganjaswag",24);
+SELECT * from Student;
+
+SHOW databases;
